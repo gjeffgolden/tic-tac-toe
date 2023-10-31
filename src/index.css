@@ -36,6 +36,18 @@ h1 {
   line-height: 1.1;
 }
 
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 200px);
+  grid-gap: 1em;
+  margin: 0 auto;
+  background-color: #1a1a1a;
+}
+.board * {
+  background-color: #ffffff;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
